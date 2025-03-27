@@ -1,0 +1,50 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1d1919;
+    color: #333;
+    text-align: center;
+}
+
+/* En-tête */
+header {
+    background-color: #282c34;
+    color: rgb(32, 27, 27);
+    padding: 20px 0;
+}
+
+header a {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+header a:hover {
+    background-color: #21a1f1;
+}
+
+/* Contenu principal */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #282c34;
+}
+
+/* Pied de page */
+footer {
+    background-color: #282c34;
+    color: rgb(14, 13, 13);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
